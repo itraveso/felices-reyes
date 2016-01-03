@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+	<body>
+		<div class="container">
+            
+            <!-- navigation -->
+			<nav>
+				<div class="content">
+					<a href="/" class="logo">
+						<img src="/images/logo.png" alt="FastDelivery">
+					</a>
+                    <ul class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/quiz">Quiz</a></li>
+                    </ul>
+                    <br class="clear" />
+				</div>
+			</nav>
+            
+            <!-- home page -->
+            <div class="home">
+                <h1>¡Felices Reyes Anny! </h1>
+                <div class="teaser">
+                    <div class="content">
+                        <img src="/images/home-teaser-image.jpg" alt="" class="home-teaser-image" />
+                        <h2>{{bannerTitle}}</h2>
+                        <p>{{bannerText}}</p>
+                        <div class="blog-articles">
+                            <div class="content">
+                                <div class="item">Como te has portado muy bien, este año tienes regalo, pero primero deberás completar un quiz para poder revelarlo</div>
+                            </div>
+                            <br class="clear" />
+                        </div>
+                        <!--div class="home-teaser-icons">
+                            <a href="#"><img src="/images/home-teaser-icon1.png" alt=""/></a>
+                            <a href="#"><img src="/images/home-teaser-icon2.png" alt=""/></a>
+                            <a href="#"><img src="/images/home-teaser-icon3.png" alt=""/></a>
+                            <a href="#"><img src="/images/home-teaser-icon4.png" alt=""/></a>
+                            <br class="clear" />
+                        </div-->
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- footer -->
+            <div class="footer">
+                <div class="content">
+                    Ivy &copy; 2016
+                </div>
+            </div>
+            
+		</div>
+	</body>
+</html>
